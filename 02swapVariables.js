@@ -4,6 +4,7 @@ var sweety = "sweety";
 var cutie = "cutie";
 console.log(sweety,cutie);
 console.log("*****After swap****");
+
 temp=cutie;
 cutie=sweety;
 sweety=temp;
