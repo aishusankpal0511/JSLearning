@@ -12,16 +12,16 @@ var checkLeapYear = function (leapYear){
         
     }
 }
-CheckLeap (2020);
-CheckLeap (1999);
-CheckLeap (1600);
-CheckLeap (2022);
-CheckLeap (1945);
-CheckLeap (null);
-CheckLeap ("Twenty Twenty");
-CheckLeap (undefined);
-CheckLeap (NaN);
-CheckLeap (1750);
+checkLeapYear (2020);
+checkLeapYear (1999);
+checkLeapYear (1600);
+checkLeapYear (2022);
+checkLeapYear (1945);
+checkLeapYear (null);
+checkLeapYear ("Twenty Twenty");
+checkLeapYear (undefined);
+checkLeapYear (NaN);7;
+checkLeapYear (1750);
 
 
 
