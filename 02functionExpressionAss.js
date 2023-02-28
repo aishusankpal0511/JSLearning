@@ -1,4 +1,4 @@
-function CheckLeap (leapYear){
+var checkLeapYear = function (leapYear){
     if (typeof leapYear != 'number' || leapYear== undefined||leapYear==null||isNaN(leapYear)) {
         console.log(`${leapYear} is not a leap year,please provide valid data`);
 
