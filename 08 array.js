@@ -53,7 +53,7 @@ console.log(subArray);
 
 console.log("============================");
 var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
-console.log("==== splice(startIndex) === ");
+console.log("==== splice(startIndex) === "); 
 const splicedArray = arrayOfNumbers.splice(3);
 console.log(`Removed elements from array is: ${splicedArray}` );
 console.log(arrayOfNumbers);
@@ -96,6 +96,15 @@ var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
 arrayOfNumbers.splice(2, 2 ,50,60);
 console.log(arrayOfNumbers);
 
+console.log("======= Traversing==================");
+let sum = 0;
+var arrayOfNumbers = [10,20,25,15,40,45,60,40,30,22,26];
+for (let index = 0; index < arrayOfNumbers.length; index++) {//1
+    const element = arrayOfNumbers[index];
+   sum = sum + element;//sum = 0+20
+    // console.log(element);
+}
+console.log(`sum of an Array element is:${sum}`);
 
 
 
