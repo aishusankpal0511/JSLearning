@@ -20,7 +20,7 @@ console.log("==========include nested object degrees========================");
 console.log(professor.degrees);
 console.log("==========Add one array========================");
 console.log(professor.certificates);
-console.log("==========concal all degress in step2========================");
+console.log("==========concat all degress in step2========================");
 let result = professor.show();
 console.log(result);
 console.log("==========Add new property totalExperience========================");
@@ -31,7 +31,7 @@ professor.city = "pune"
 console.log(`After modification city is :${professor.city}`);
 console.log("==========complete object========================");
 professor.ID = 12345;
-console.log(professor);
+console.log(professor);``
 console.log("==========Add one new certificate last element of the array certificate========================");
 professor.certificates.push("oracle certificate")
 console.table(professor.certificates);
