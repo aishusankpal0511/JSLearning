@@ -36,7 +36,7 @@ function PersonalDetails(firstName,lastName, collegeName){
              }
              var sumResult = sumOfNumbers(10.23, 600, 40);
              console.log(sumResult);
-             var sumResult = sumOfNumbers('Hello','Good','Morning');
+             var sumResult = sumOfNumbers('Hello ','Good ','Morning ');
              console.log(sumResult);
                  
      

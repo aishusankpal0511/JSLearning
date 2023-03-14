@@ -1,7 +1,7 @@
 console.log("<<<<<<<<<<<<<<<<Step1<<<<<<<<<<<<<<<<<<<<<<<<<<");
 var vowels = function (str){
     var count = 0;
-    for (let index = 0; index <=str.length ; index++) {
+    for (let index = 0; index <= str.length ; index++) {
         var char = str.charAt(index)
         if (char == "a" ||char ==  "e" ||char ==  "i"||char == "o"||char == "u" || char =="A" ||
         char == "E" || char =="I" || char =="O" || char =="U") {
