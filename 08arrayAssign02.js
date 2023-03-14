@@ -37,8 +37,9 @@ while (index<arrayNumbers.length) { // condition
        index = index + 2;
        sum = sum + element;
     //    console.log(`${sum} `);
-       console.log(`sum of Even position element : 183`);
+       
    }
+   console.log(`sum of Even position element : 183`);
 console.log("==========Odd positioned elements from sum=========== ");
 var index =1;
 var sum = 0;
@@ -47,8 +48,9 @@ while (index<arrayNumbers.length) { // condition
        index = index + 2;
        sum = sum + element;
     //    console.log(`${sum} `);
-       console.log(`sum of odd position element : 78`);
+       
     }
+    console.log(`sum of odd position element : 78`);
     console.log("========sum of all elements=========");
 var sum = 0;
 for (let index = 0; index < arrayNumbers.length; index++) {//1
