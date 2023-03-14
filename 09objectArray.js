@@ -31,7 +31,7 @@ let yesBank = {
 }
 const arrayOfBanks = [sbiBank,axisBank,hdfcBank,yesBank];
 for (let index = 0; index < arrayOfBanks.length; index++) {
-    const element = arrayOfBank[index];
+    const element = arrayOfBanks[index];
     console.log(`${element.bankName},${element.account}`);
 }
 for (const element of arrayOfBanks) {
