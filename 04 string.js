@@ -13,19 +13,16 @@ console.log("Find the last character");
 var charAtLastIndex = greet.charAt(greetLength-1);
 console.log("last char is:",charAtLastIndex);
 
-console.log("Find the index by character value");
-var indexOfM = greet.indexOf('M');
-console.log("Index of char M is:",indexOfM);
+console.log("Find the index by char value");
+var indexOfM=greet.indexOf('M');
+console.log("Index of char M is:", indexOfM);
 
-console.log("Index of char which is not available into the string: ", greet.indexOf('z'));
-console.log("Index of o char: ", greet.indexOf('o'));
-console.log("Index of o char using lastIndexOf(): ", greet.lastIndexOf('o'));
+console.log("Index of char which is not available into string:", greet.indexOf('z'));
+console.log("Index of char which is not available into string:", greet.lastIndexOf('o'));
 
-var replaceResult = greet.replace("Morning","Evening");
-console.log(replaceResult);
-console.log(greet);
 
-console.log("Upper Case:", replaceResult.toUpperCase());
+var replaceResult = greet.replace("Morning", "Evening");
+
 console.log("Upper Case:", replaceResult.toLowerCase());
 
 var  myName = "   Mohit   Sharma  ";
@@ -55,6 +52,9 @@ console.log(splitResult);
 console.log("Total words: ", splitResult.length);
 
 var myFriendList = "Billgates, Stew Job, Elon Musk, Ratan Tata, Sundar Pichai, Satya Nadella, Narayan Murti, Nandan Nilekani, Larry Page, Surgey Brain, Tim Cook";
-var frdList = myFriendList.split(",");
-console.log(frdList );
-console.log(frdList.length);
+var listOfMyFriend = myFriendList.split(",");
+ console.log(listOfMyFriend);
+ console.log("Toatl words:", listOfMyFriend.length);
+ var myWord= myFriendList.split(" ")
+console.log(myWord);
+console.log("Total Words:", myWord);
