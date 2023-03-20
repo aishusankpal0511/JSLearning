@@ -1,0 +1,45 @@
+console.log("==============object created using class===================");
+class Bank  {
+ constructor(name,location,accountNumber,ifsc,interestRate){
+    this.bankName=name;
+    this.location = location;
+    this.accountNumber=accountNumber;
+    this.ifsc = ifsc;
+    this.interestRate = interestRate;
+ }
+}
+const axisBank = new Bank("Axis Bank","Aurgabad","4125637894","UTIB0000165" ,10.74);
+const sbiBank = new Bank("State Bank of India","Aurgabad","7125637894","SBIN0001716" ,10.85);
+const iciciBank = new Bank("ICICI Bank","Aurgabad","9125637894","ICIC0006970" ,11.85);
+const kotakBank = new Bank("kotak Bank","Aurgabad","5125637894","kkbk0000693" ,10.85);
+const hdfcBank = new Bank("HDFC Bank","Aurgabad","4125637894","HDFC0000740" ,11.25);
+const panjabBank = new Bank("panjab Bank","Aurgabad","4125637894","PUNB0050200" ,10);
+console.log(axisBank);
+console.log(sbiBank);
+console.log(iciciBank);
+console.log(kotakBank);
+console.log(hdfcBank);
+console.log(panjabBank);
+console.log("===============All object element added to the set===============");
+const setOfNums = new Set();
+setOfNums.add(axisBank);
+setOfNums.add(sbiBank);
+setOfNums.add(iciciBank);
+setOfNums.add(kotakBank);
+setOfNums.add(hdfcBank);
+setOfNums.add(panjabBank);
+console.log(setOfNums);
+console.log("==========================trasversing using for of loop=======================");
+const setOfBanks = new Set();
+setOfBanks.add(axisBank);
+setOfBanks.add(sbiBank);
+setOfBanks.add(iciciBank);
+setOfBanks.add(kotakBank);
+setOfBanks.add(hdfcBank);
+setOfBanks.add(panjabBank);
+
+for (const bank of setOfBanks) {
+    console.log("Bank Name:", bank.bankName,"location:",bank.location)
+    
+    
+}
