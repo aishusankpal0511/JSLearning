@@ -1,4 +1,4 @@
-console.log("============step1(shallow array)=====================");
+console.log("============step1(shallow clone)=====================");
 const arrayNums = [20, 3, 56, 90, 400, 49];
 const newArray = arrayNums; // Shallow Clone
 newArray.push(55,66);
