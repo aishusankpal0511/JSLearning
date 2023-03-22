@@ -8,7 +8,6 @@ arrayNumbers.forEach((element) => {
     if (element>=0) {
         console.log(element);
     }
-
 });
 console.log("===========step3(find negative number)===============");
 let stores =[]
